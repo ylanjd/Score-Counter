@@ -1,0 +1,109 @@
+@font-face {
+    font-family: Cursed Timer ULiL;
+    src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+@font-face {
+    font-family: Creepster;
+    src: url(Creepster-Regular.ttf);
+}
+
+body {
+    text-align: center;
+    font-family: creepster;
+    background-color: #080001;
+}
+
+button {
+    width: 45px;
+    height: 45px;
+    flex-shrink: 0;
+    color: #eee;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.812px; /* 154.509% */
+    border-radius: 5px;
+    border: 2px solid #eee;
+    background-color: #135F63;
+}
+
+#container {
+    width: 575px;
+    height: 385px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #135F63;
+    margin: 50px auto;
+    border: 5px solid #eee;
+    
+}
+
+h3 {
+    color: #EEE;
+    text-align: center;
+    font-family: Creepster;
+    font-size: 50px;
+    font-weight: 400;
+    width: 149px;
+    font-weight: 700;
+    line-height: 35.893px; /* 89.732% */
+    margin: 10px;
+}
+
+ 
+
+#home {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: auto;
+    padding: 20px;
+}
+
+#home-score {
+    width: 155px;
+    height: 120px;
+    margin: 15px;
+    flex-shrink: 0;
+    color: #4ce0d2;
+    background-color: #080001;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126.666px; /* 140.74% */
+       
+}
+
+#guest {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: auto;
+    padding: 20px;
+}
+
+#guest-score {
+    width: 155px;
+    height: 120px;
+    margin: 15px;
+    flex-shrink: 0;
+    color: #4ce0d2;
+    background-color: #080001;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126.666px; /* 140.74% */
+}
